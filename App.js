@@ -1,8 +1,12 @@
 import React from 'react';
-import { MoviesContainer } from './client/containers'
+// import { MoviesContainer } from './client/containers'
+import { StackNavigator } from 'react-navigation'
+import FirstScreen from './screens/FirstScreen'
+import SecondScreen from './screens/SecondScreen'
 
-const App = () => (
-  <MoviesContainer />
-)
+const Navigation = StackNavigator({
+  First: { screen: FirstScreen},
+  Second: { screen: SecondScreen}
+});
 
-export default App
+export default Navigation

@@ -4,25 +4,23 @@ import { NativeRouter, Link } from 'react-router-native'
 import { Navigation, Card } from 'react-router-navigation'
 
 const MovieDisplay = (props) => {
+  const imgURL = `https://image.tmdb.org/t/p/original${props.movie.poster_path}`
   const renderMovieFeed = 
   props.movie.length != 0 ? (
     <View style={styles.displayMovieContainer} key={props.id} >
       <Image
-        source={{uri: `https://image.tmdb.org/t/p/original${props.movie.poster_path}`}}
+        source={{uri: imgURL }}
         style={styles.thumbnail}
       />
       <View style={styles.rightContainer}>
-        <Text style={styles.title}>{props.movie.title}</Text>
-        <Text style={styles.meta}>{props.movie.release_date}</Text>
-        <Text style={styles.meta}>ID: {props.id}</Text>
+        <TouchableOpacity onPress={() => props.navigate("Second", {title: props.movie.title, imgURL, catalogue: props.id, date: props.movie.release_date})} style={styles.addButton}>
+          <Text style={styles.title}>{props.movie.title}</Text>
+        </TouchableOpacity>
+        {/* <Text style={styles.title}>{props.movie.title}</Text> */}
+        <Text style={styles.meta}>Release Date: {props.movie.release_date}</Text>
         <Text style={styles.meta}>Popularity: {props.movie.popularity}</Text>
         <Text style={styles.meta}>Vote average: {props.movie.vote_average}</Text>
       </View>
-      {/* Nav Arrow*/}
-        <TouchableOpacity onPress={() => alert("Detail Screen")} style={styles.addButton}>
-          <Text>></Text>
-        </TouchableOpacity>
-      {/* End */}
     </View>
   ) : (
     <View>
