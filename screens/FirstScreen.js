@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, StyleSheet, ScrollView, TouchableOpacity } from 'react-native'
+import { View, StyleSheet, ScrollView,TouchableOpacity,Text} from 'react-native'
 import AwesomeButtonRick from 'react-native-really-awesome-button/src/themes/rick';
 
 import { MovieDisplay } from '../client/components'
@@ -46,7 +46,9 @@ export default class FirstScreen extends Component {
         loaded: true,
        })
       })
-      //add catch for error
+      .catch(err => {
+        alert(`Error: ${err}`)
+      })
   }
 
   sortMovieListAtoZ = () => {
@@ -83,7 +85,9 @@ export default class FirstScreen extends Component {
       <View style={styles.container}>
   
          {/* Scroll Container */}
-         <ScrollView style={styles.scrollContainer}>
+         <ScrollView 
+         ref={(c) => {this.scroll = c}}
+         style={styles.scrollContainer}>
           {
             this.state.movieResultsFeed.map((movie,key) => {
               return <MovieDisplay
@@ -122,6 +126,12 @@ export default class FirstScreen extends Component {
         </View>
         {/* End */}
 
+        {/* Add Button */}
+        <TouchableOpacity onPress={() => this.scroll.scrollTo({x: 0, y: 0, animated: true})} style={styles.addButton}>
+            <Text style={styles.addButtonText}>TOP</Text>
+        </TouchableOpacity>
+        {/* End */}
+
       </View>
     )
   }
@@ -152,5 +162,22 @@ const styles = StyleSheet.create({
   },
   btnLeft: {
     marginRight: 10,
-  }
+  },
+  addButtonText: {
+    color: '#fff',
+    fontSize: 15
+  },
+  addButton: {
+    position: 'absolute',
+    zIndex: 11,
+    right: 15,
+    bottom: 65,
+    backgroundColor: '#107896',
+    width: 50,
+    height: 50,
+    borderRadius: 35,
+    alignItems: 'center',
+    justifyContent: 'center',
+    elevation: 8
+  },
 })
