@@ -6,10 +6,10 @@ import { MOVIE_DB_API_KEY } from '../config/keys'
 import { MovieDisplay } from '../client/components'
 import axios from 'axios'
 
-let API_URL = "https://api.themoviedb.org/3/movie/top_rated"
-let PAGE_SIZE = 1;
-let PARAMS = `?api_key=${MOVIE_DB_API_KEY}&language=en-US&page=${PAGE_SIZE}`
-let REQUEST_URL = API_URL + PARAMS
+const API_URL = "https://api.themoviedb.org/3/movie/top_rated"
+const PAGE_SIZE = 1;
+const PARAMS = `?api_key=${MOVIE_DB_API_KEY}&language=en-US&page=${PAGE_SIZE}`
+const REQUEST_URL = API_URL + PARAMS
 
 export default class FirstScreen extends Component {
   static navigationOptions = {
@@ -54,8 +54,8 @@ export default class FirstScreen extends Component {
   }
 
   sortMovieListAtoZ = () => {
-    let newMovieResultsFeed = this.state.movieResultsFeed.sort(function(a, b){
-      var movieA=a.title.toLowerCase(), movieB=b.title.toLowerCase();
+    const newMovieResultsFeed = this.state.movieResultsFeed.sort(function(a, b){
+      let movieA=a.title.toLowerCase(), movieB=b.title.toLowerCase();
       if (movieA < movieB) //sort string ascending
        return -1;
       if (movieA > movieB)
@@ -68,8 +68,8 @@ export default class FirstScreen extends Component {
   }
 
   sortMovieListByReleaseDate = () => {
-    let newMovieResultsFeed = this.state.movieResultsFeed.sort(function(a, b){
-      var movieA=a.release_date.toLowerCase(), movieB=b.release_date.toLowerCase();
+    const newMovieResultsFeed = this.state.movieResultsFeed.sort(function(a, b){
+      let movieA=a.release_date.toLowerCase(), movieB=b.release_date.toLowerCase();
       if (movieA < movieB) //sort string ascending
        return -1;
       if (movieA > movieB)

@@ -32,7 +32,7 @@ export default class SecondScreen extends Component {
             source={{uri: params.imgURL }}
           />
         </View>
-        <Text style={styles.meta}>Catalogue #: {params.catalogue}</Text>
+        <Text style={styles.meta}>Catalog #: {params.catalogue}</Text>
         <Text style={styles.meta}>Release Date: {params.date}</Text>
       </View>
     )
@@ -53,8 +53,8 @@ var styles = StyleSheet.create({
     fontFamily: 'Arial',
   },
   thumbnail: {
-    width: 200,
-    height: 200,
+    width: 250,
+    height: 375,
   },
   imgContainer: {
     borderWidth: 3,

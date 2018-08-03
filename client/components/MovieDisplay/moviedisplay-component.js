@@ -11,10 +11,9 @@ const MovieDisplay = (props) => {
         style={styles.thumbnail}
       />
       <View style={styles.rightContainer}>
-        <TouchableOpacity onPress={() => props.navigate("Second", {title: props.movie.title, imgURL, catalogue: props.id, date: props.movie.release_date})} style={styles.addButton}>
+        <TouchableOpacity onPress={() => props.navigate("Second", {title: props.movie.title, imgURL, catalogue: props.id, date: props.movie.release_date})}>
           <Text style={styles.title}>{props.movie.title}</Text>
         </TouchableOpacity>
-        {/* <Text style={styles.title}>{props.movie.title}</Text> */}
         <Text style={styles.meta}>Release Date: {props.movie.release_date}</Text>
         <Text style={styles.meta}>Popularity: {props.movie.popularity}</Text>
         <Text style={styles.meta}>Vote average: {props.movie.vote_average}</Text>
