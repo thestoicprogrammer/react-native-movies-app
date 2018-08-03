@@ -5,7 +5,7 @@ Below you'll find information about performing common tasks. The most recent ver
 ## Backlog
 
 Here are the exercise requirements:
-----
+
 [x] Create a web app in any framework of your choosing (react, angular, vue, etc) 
 
 [X] Have the browser client app hit against IMDB APIs (there are several “free” options online and may require a key)
