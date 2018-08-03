@@ -41,12 +41,40 @@ export default class FirstScreen extends Component {
   fetchData = async () => {
     await axios.get(REQUEST_URL)
     .then(res => {
-      // alert(res)
       this.setState({ 
         movieResultsFeed: res.data.results,
         loaded: true,
        })
       })
+      //add catch for error
+  }
+
+  sortMovieListAtoZ = () => {
+    let newMovieResultsFeed = this.state.movieResultsFeed.sort(function(a, b){
+      var movieA=a.title.toLowerCase(), movieB=b.title.toLowerCase();
+      if (movieA < movieB) //sort string ascending
+       return -1;
+      if (movieA > movieB)
+       return 1;
+      return 0; //default return value (no sorting)
+     });
+     this.setState({
+      movieResultsFeed: newMovieResultsFeed
+     })
+  }
+
+  sortMovieListByReleaseDate = () => {
+    let newMovieResultsFeed = this.state.movieResultsFeed.sort(function(a, b){
+      var movieA=a.release_date.toLowerCase(), movieB=b.release_date.toLowerCase();
+      if (movieA < movieB) //sort string ascending
+       return -1;
+      if (movieA > movieB)
+       return 1;
+      return 0; //default return value (no sorting)
+     });
+     this.setState({
+      movieResultsFeed: newMovieResultsFeed
+     })
   }
 
   render() {
@@ -71,20 +99,24 @@ export default class FirstScreen extends Component {
 
         {/* Footer */}
         <View style={styles.footer}>
+
           <View style={styles.btnLeft}>
-          <AwesomeButtonRick
-            type="primary"
-            width={100}
-            height={40}
-            styles={styles.btnOne}
-          >Sort A-Z</AwesomeButtonRick>
+            <AwesomeButtonRick
+              onPress={() => this.sortMovieListAtoZ()}
+              type="primary"
+              width={100}
+              height={40}
+              styles={styles.btnOne}
+            >Sort A-Z</AwesomeButtonRick>
           </View>
+
           <View>
-          <AwesomeButtonRick
-            type="secondary"
-            width={130}
-            height={40}
-          >Sort By Year</AwesomeButtonRick>
+            <AwesomeButtonRick
+              onPress={() => this.sortMovieListByReleaseDate()}
+              type="secondary"
+              width={130}
+              height={40}
+            >Sort By Year</AwesomeButtonRick>
           </View>
           
         </View>
@@ -101,6 +133,7 @@ const styles = StyleSheet.create({
   },
   scrollContainer: {
     flex: 1,
+    marginBottom: 50,
   },
   footer: {
     flex: 1,

@@ -1,7 +1,5 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
-import { NativeRouter, Link } from 'react-router-native'
-import { Navigation, Card } from 'react-router-navigation'
 
 const MovieDisplay = (props) => {
   const imgURL = `https://image.tmdb.org/t/p/original${props.movie.poster_path}`
@@ -54,6 +52,8 @@ var styles = StyleSheet.create({
     fontSize: 20,
     marginBottom: 8,
     textAlign: 'center',
+    fontWeight: 'bold',
+    textDecorationLine: 'underline',
   },
   meta: {
     textAlign: 'center',

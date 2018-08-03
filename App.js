@@ -1,5 +1,3 @@
-import React from 'react';
-// import { MoviesContainer } from './client/containers'
 import { StackNavigator } from 'react-navigation'
 import FirstScreen from './screens/FirstScreen'
 import SecondScreen from './screens/SecondScreen'
