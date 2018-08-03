@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_b488b435ca0775a6b8ac0e8b76113e5e832ff707.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_cf07475945cbb5a8319018c665391841e098e57c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_045f2da6f1a1cea7e8555b263fe249cc3d036b63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_952fd9368a82afdfba7a7de8cf5e638d3e0f0bed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_a8b20e17095d3ed0d1cfb2cc0022e92578327baa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_9297be29140dd10aca91739c0d0e14e2e5c29223.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_ba3615bf1c42ad818c44f313571f421f24587c57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_0c94be12b597ab36cb45f775651ccf7c40682e2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_0ba0159a54d2e27eda6ead99c20e2a1dd41c55ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_f2be50929da270585498592ff1d244bd613347dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_4a35a76d8b68965e7e26cf2f4ecd4f1d9113466b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_9502486b24d87639d7297132bc6afbaf6b43a90a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_539a43f0a6cc2427aab018606926c0ed661c161c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_b98e49ceb26a0e5a5c20ce5350e26e524ba1857c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_4412b3291282813fc7272699f9063ac778f172a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_e7f1bef63785475306ef7eb44c2ffddd4c6a2c6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_2a7b02c2adfa42aa31ba7f269b03b17d6007894b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_dd06235cb6a40e1760a19a44d5cf03fc26db6d4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_f2a2c9da8407c5c9f27b5459ee13dcd5c0787b18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_d1429d963f20da47b4ad0742634b3988568f9314.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/bgriffin/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/bgriffin/Dropbox/react-native-projects/movie-app/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_e2b36e2aaef9ef0ac75728f094889dca452da7bd.jar" />
+    </item>
+
+</items>

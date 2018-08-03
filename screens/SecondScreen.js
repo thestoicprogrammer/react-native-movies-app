@@ -8,13 +8,13 @@ export default class SecondScreen extends Component {
     headerStyle: {
       backgroundColor: '#107896',
       borderBottomWidth: 10,
-      borderBottomColor: '#ddd'
+      borderBottomColor: '#ddd',
       },
       headerTitleStyle: {
       color: '#fff',
-      fontSize: 25,
+      fontSize: 20,
       fontWeight: 'bold',
-      fontFamily: 'Bebas Neue',
+      fontFamily: 'Arial',
       alignItems: 'center',
       },
   }
@@ -49,6 +49,8 @@ var styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     margin:10,
+    color: 'black',
+    fontFamily: 'Arial',
   },
   thumbnail: {
     width: 200,
@@ -61,5 +63,7 @@ var styles = StyleSheet.create({
   meta: {
     textAlign: 'center',
     margin: 10,
+    color: 'black',
+    fontFamily: 'Arial',
   },
 })

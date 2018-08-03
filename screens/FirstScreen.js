@@ -19,14 +19,16 @@ export default class FirstScreen extends Component {
       backgroundColor: '#107896',
       borderBottomWidth: 5,
       borderBottomColor: '#ddd'
+
       },
       headerTitleStyle: {
       color: '#fff',
-      fontSize: 25,
+      fontSize: 20,
       fontWeight: 'bold',
-      fontFamily: 'Bebas Neue',
-      alignItems: 'center',
-      }
+      fontFamily: 'Arial',
+      textAlign:"center", 
+      flex:1,
+      },
   }
 
   state = {

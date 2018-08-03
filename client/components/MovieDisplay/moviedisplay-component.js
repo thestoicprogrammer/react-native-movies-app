@@ -54,9 +54,11 @@ var styles = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
     textDecorationLine: 'underline',
+    color: 'black',
   },
   meta: {
     textAlign: 'center',
+    color: 'black',
   },
 });
 
