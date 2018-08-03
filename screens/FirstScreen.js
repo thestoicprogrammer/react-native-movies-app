@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import { View, StyleSheet, ScrollView,TouchableOpacity,Text} from 'react-native'
 import AwesomeButtonRick from 'react-native-really-awesome-button/src/themes/rick';
+import { MOVIE_DB_API_KEY } from '../config/keys'
 
 import { MovieDisplay } from '../client/components'
 import axios from 'axios'
 
-let API_KEY = "e060bf54cfdff37d5349ff41f59f21dc"
 let API_URL = "https://api.themoviedb.org/3/movie/top_rated"
 let PAGE_SIZE = 1;
-let PARAMS = `?api_key=${API_KEY}&language=en-US&page=${PAGE_SIZE}`
+let PARAMS = `?api_key=${MOVIE_DB_API_KEY}&language=en-US&page=${PAGE_SIZE}`
 let REQUEST_URL = API_URL + PARAMS
 
 export default class FirstScreen extends Component {
@@ -47,7 +47,7 @@ export default class FirstScreen extends Component {
        })
       })
       .catch(err => {
-        alert(`Error: ${err}`)
+        alert(err)
       })
   }
 
