@@ -2,8 +2,8 @@ import React from 'react'
 import { StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
 
 const MovieDisplay = (props) => {
-  const imgURL = `https://image.tmdb.org/t/p/original${props.movie.poster_path}`
-  const renderMovieFeed = 
+  let imgURL = `https://image.tmdb.org/t/p/original${props.movie.poster_path}`
+  let renderMovieFeed = 
   props.movie.length != 0 ? (
     <View style={styles.displayMovieContainer} key={props.id} >
       <Image
