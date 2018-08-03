@@ -2,6 +2,30 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
+## Backlog
+
+Here are the exercise requirements:
+----
+[x] Create a web app in any framework of your choosing (react, angular, vue, etc) 
+
+[X] Have the browser client app hit against IMDB APIs (there are several “free” options online and may require a key)
+
+[X] Display a list of at least 5 movies of any kind and display: Title, Year, and some other piece of meta-information (e.g. Metascore or Genre)
+
+[X] Sort the list of movies by at least two different fields if not all of them
+
+[X] Click on the title or row of each movie to get to another page where more metadata on the movie is displayed. Any additional data you decide to display on the details page for the movie is fine, but it must include movie poster image.
+
+[X] Deliver solution as runnable code in a public repository - GitHub works fine for this or something on Bitbucket internally
+
+
+Other things:
+[X] Consider menu navigation when hitting back / forward from display details to list
+
+[X] Include any build instructions if necessary (node, npm, webpack, etc)
+
+[X] Don’t get too hung-up on UI/design – that’s not the important part
+
 ## Table of Contents
 
 * [Updating to New Releases](#updating-to-new-releases)
